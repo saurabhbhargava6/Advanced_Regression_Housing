@@ -128,33 +128,31 @@ You are required to model the price of houses with the available independent var
         </ol>
     </span>    
 </div>
-<div class="alert alert-block alert-warning">
-    <span style='font-family:Georgia'>
-        <b>Which variables are significant in predicting the price of a house?</b>
-        <ul>
-            <li>'OverallQual_10'</li>
-            <li>'OverallQual_9'</li>
-            <li>'Neighborhood_NoRidge'</li>
-            <li>'FullBath_3'</li>
-            <li>'TotRmsAbvGrd_11'</li>
-            <li>'Fireplaces_3'</li>
-        </ul>
-        <b>How well those variables describe the price of a house?</b>
-        <ul>
-            <li>OverallQual_10 = 0.833928</li>
-            <li>OverallQual_9 = 0.830237</li>
-            <li>Neighborhood_NoRidge = 0.592742</li>
-            <li>FullBath_3 = 0.530678</li>
-            <li>TotRmsAbvGrd_11 = 0.505044</li>
-            <li>Fireplaces_3 = 0.442772</li>
-        </ul>
-        <b>Optimal value of lambda for ridge and lasso regression?</b>
-        <ul>
-            <li>Ridge : 5.0</li>
-            <li>Lasso : 0.001</li>
-        </ul>
-    </span>    
+<p><strong>Which variables are significant in predicting the price of a house?</strong></p>
+<ul>
+<p><strong>How well those variables describe the price of a house?</strong></p>
+<ul>
+<div>
+<ul>
+<li><span style="color: #000000; background-color: #ffffff;">Neighborhood_Crawfor</span></li>
+<li><span style="color: #000000; background-color: #ffffff;">GrLivArea</span></li>
+<li><span style="color: #000000; background-color: #ffffff;">OverallQual</span></li>
+<li><span style="color: #000000; background-color: #ffffff;">SaleCondition_Normal</span></li>
+<li><span style="color: #000000; background-color: #ffffff;">SaleCondition_Partial</span></li>
+<li><span style="color: #000000; background-color: #ffffff;">Neighborhood_StoneBr</span></li>
+<li><span style="color: #000000; background-color: #ffffff;">MSZoning_RL</span></li>
+<li><span style="color: #000000; background-color: #ffffff;">MSZoning_FV</span></li>
+<li><span style="color: #000000; background-color: #ffffff;">OverallCond</span></li>
+<li><span style="color: #000000; background-color: #ffffff;">Condition1_Norm</span></li>
+</ul>
 </div>
+    </ul>
+<p><strong>Optimal value of lambda for ridge and lasso regression?</strong></p>
+<ul>
+<li>Ridge : 10.0</li>
+<li>Lasso : 0.001</li>
+</ul>
+
 <div class="alert alert-block alert-success">
     <span style='font-family:Georgia'>
         <b>Final Model :</b> 
